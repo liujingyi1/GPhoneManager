@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Admin. Tel.</string>
+
+<string name="app_lock_summary">Necesită securizare prin autentificare pt. accesarea aplicației</string>
+<string name="freeze_app_summary">Dezactivare aplicație și eliberare resurse</string>
+<string name="clear_summary">Curățare RAM și ROM</string>
+<string name="net_manager_summary">Administrare conexiuni de rețea pt. aplicații.</string>
+<string name="clear_key">Curățare</string>
+<string name="app_lock">Blocare Aplicație</string>
+<string name="freeze_app">Înghețare aplicație</string>
+<string name="clear">Curățător</string>
+<string name="net_manager">Administrator net</string>
+<string name="app_manager">Pornire automată</string>
+<string name="permission_manager">Permisiune</string>
+<string name="title_unlock_app">%1s deblocare aplicații</string>
+<string name="title_lock_app">%1s blocare aplicații</string>
+<string name="lockpassword_confirm_your_fp_header">Confirmare amprentă</string>
+<string name="lockpassword_confirm_your_fp_generic">Atingeți senzorul de amprentă pt. continuare</string>
+<string name="lockpassword_switch">Schimbare la blocare Securitate</string>
+<string name="call_back_authentication_error">Eroare:</string>
+<string name="call_back_authentication_failed">Eșuată.</string>
+<string name="call_back_authentication_succeeded">Reușită.</string>
+<string name="call_back_authentication_help">Ajutor:</string>
+<string name="confirm_fingerprint_icon_content_description">"Folosiți amprenta pentru a continua."</string>
+<string name="lockpassword_confirm_your_password_header">"Confirmați parola"</string>
+<string name="lockpassword_confirm_your_pin_header">"Confirmați codul PIN"</string>
+<string name="lockpassword_confirm_your_password_generic">"Pentru a continua, introduceți parola dispozitivului."</string>
+<string name="lockpassword_confirm_your_pin_generic">"Pentru a continua, introduceți codul PIN al dispozitivului."</string>
+<string name="lockpassword_invalid_pin">"Cod PIN greșit"</string>
+<string name="lockpassword_invalid_password">"Parolă greșită"</string>
+<string name="lockpattern_too_many_failed_confirmation_attempts">"Prea multe încercări incorecte. Încercați din nou peste <xliff:g id="NUMBER">%d</xliff:g> secunde."</string>
+<string name="lockpassword_confirm_your_pattern_header">"Confirmați modelul"</string>
+<string name="lockpassword_confirm_your_pattern_generic">"Pentru a continua, folosiți modelul dispozitivului."</string>
+<string name="lockpattern_need_to_unlock_wrong">"Model greșit"</string>
+<string name="fingerprint_touch_dialog_title">"Hopa, acela nu este senzorul"</string>
+<string name="fingerprint_touch_dialog_message">"Folosiți senzorul de amprentă pe dispozitiv."</string>
+<string name="toast_app_freeze_success">%1$s a înghețat cu succes</string>
+<string name="toast_app_unfreeze_success">%1$s s-a dezghețat cu succes</string>
+<string name="app_freeze_dialog_message">Sigur înghețați aplicația %1$s?</string>
+<string name="app_unfreeze_dialog_message">Sigur dezghețați aplicația %1$s?</string>
+<string name="frozen_app_title">Aplicații Înghețate</string>
+<string name="normal_app_title">Alege aplicația</string>
+<string name="scaning_text">Se scanează...</string>
+<string name="clean_main_item_cache">Elemente nedorite și cache</string>
+<string name="clean_main_item_app">Dezinstalare aplicație</string>
+<string name="clean_main_item_bigfile">Fișiere mari</string>
+<string name="clean_main_item_photo">"Fotografii"</string>
+<string name="clean_main_item_media">Audio și video</string>
+<string name="scan_info_text">Se scanează: <xliff:g id="path">%s</xliff:g></string>
+<string name="frequent_apps">aplicații frecvente</string>
+<string name="not_frequent_apps">Nu și aplicațiile frecvente</string>
+<string name="group_title_cache">Cache aplicație</string>
+<string name="group_title_data">Date aplicație</string>
+<string name="group_title_new_apk">Fișiere APK noi</string>
+<string name="group_title_re_apk">Fișiere APK redundante</string>
+<string name="group_title_junk">Fișiere nedorite</string>
+<string name="used_text">"Utilizat"</string>
+<string name="free_text">"Disponibil"</string>
+<string name="can_be_cleaned">Poate fi curățat</string>
+<string name="clean_up_ram_size">Curățare: <xliff:g id="size">%s</xliff:g></string>
+<string name="ram_size">Ram: <xliff:g id="size">%s</xliff:g></string>
+<string name="junk_to_clean">La Curățare</string>
+<string name="all">"Toate"</string>
+<string name="none">"Niciuna"</string>
+<string name="a_month_ago">Acum o lună</string>
+<string name="a_year_ago">Acum un an</string>
+<string name="clean_now">Curățare Acum: <xliff:g id="size">%s</xliff:g></string>
+<string-array name="expand_group_summary">
+<item>Curățarea nu va afecta utilizarea normală.</item>
+<item>Datele aplicației se pot pierde după curățare.</item>
+<item>Nerecuperabil odată curățat.</item>
+<item>Fișierele APK din aplicațiile instalate.</item>
+<item>Curățarea nu va afecta utilizarea normală.</item>
+</string-array>
+<string name="install_apk_text">Instalare</string>
+<string name="update_apk_text">"Actualizați"</string>
+<string name="clean_up_storage_size"><xliff:g id="size">%s</xliff:g> eliberați</string>
+<string name="clean_confirm">Curățare</string>
+<string name="cancel">Anulare</string>
+<string name="delete_waring">Odată curățate, datele selectate nu se pot recupera.</string>
+<string name="group_by_date">Grupare după dată</string>
+<string name="similar_photo">Poze Similare</string>
+<string name="no_item">Niciun element</string>
+<string name="no_activity_found">Nicio Aplicație găsită pentru a deschide elementul.</string>
+<string name="phone_storage_info">Telefon: <xliff:g id="used">%s</xliff:g>/<xliff:g id="total">%s</xliff:g></string>
+<string name="sd_card_info">Card SD: <xliff:g id="used">%s</xliff:g>/<xliff:g id="total">%s</xliff:g></string>
+    <string name="secure_not_set">"Nu s-a setat blocarea ecranului securizată. Mergeți la Setări -> SECURITATE pentru a seta SECURIZAREA"</string>
+</resources>

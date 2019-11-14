@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Administrador del teléfono</string>
+
+<string name="app_lock_summary">Se necesita autenticación segura cuando ingresa a la aplicación</string>
+<string name="freeze_app_summary">Deshabilitar la aplicación y eliberar recursos</string>
+<string name="clear_summary">Limpie RAM y ROM</string>
+<string name="net_manager_summary">Administrar conexiones de red para aplicaciones</string>
+<string name="clear_key">Limpie</string>
+<string name="app_lock">Bloqueo de la aplicación</string>
+<string name="freeze_app">Congelar la aplicación</string>
+<string name="clear">Limpiador/Optimizador</string>
+<string name="net_manager">Administrador net</string>
+<string name="app_manager">Inicio Automático</string>
+<string name="permission_manager">Permiso</string>
+<string name="title_unlock_app">%1s de aplicaciones desbloqueadas</string>
+<string name="title_lock_app">%1s de aplicaciones bloqueadas</string>
+<string name="lockpassword_confirm_your_fp_header">Confirma tu huella digital</string>
+<string name="lockpassword_confirm_your_fp_generic">Toca el sensor de huella digital para continuar</string>
+<string name="lockpassword_switch">Cambiar a bloqueo de seguridad</string>
+<string name="call_back_authentication_error">Error:</string>
+<string name="call_back_authentication_failed">Fallo.</string>
+<string name="call_back_authentication_succeeded">Operación realizada con éxito</string>
+<string name="call_back_authentication_help">Ayuda:</string>
+<string name="confirm_fingerprint_icon_content_description">"Utiliza tu huella digital para continuar."</string>
+<string name="lockpassword_confirm_your_password_header">"Confirma tu contraseña"</string>
+<string name="lockpassword_confirm_your_pin_header">"Confirma el número PIN"</string>
+<string name="lockpassword_confirm_your_password_generic">"Para continuar, ingresa la contraseña del dispositivo."</string>
+<string name="lockpassword_confirm_your_pin_generic">"Para continuar, ingresa el PIN del dispositivo."</string>
+<string name="lockpassword_invalid_pin">"PIN incorrecto"</string>
+<string name="lockpassword_invalid_password">"Contraseña incorrecta"</string>
+<string name="lockpattern_too_many_failed_confirmation_attempts">"Demasiados intentos fallidos. Vuelve a intentarlo en <xliff:g id="NUMBER">%d</xliff:g> segundos."</string>
+<string name="lockpassword_confirm_your_pattern_header">"Confirma el patrón"</string>
+<string name="lockpassword_confirm_your_pattern_generic">"Para continuar, usa el patrón del dispositivo."</string>
+<string name="lockpattern_need_to_unlock_wrong">"Patrón incorrecto"</string>
+<string name="fingerprint_touch_dialog_title">"¡Vaya! Ese no es el sensor"</string>
+<string name="fingerprint_touch_dialog_message">"Usa el sensor de huellas digitales del dispositivo."</string>
+<string name="toast_app_freeze_success">%1$s ha sido congelado exitosamente</string>
+<string name="toast_app_unfreeze_success">%1$s ha sido descongelado exitosamente</string>
+<string name="app_freeze_dialog_message">¿Estás seguro de querer congelar el %1$s de la aplicación?</string>
+<string name="app_unfreeze_dialog_message">¿Estás seguro de querer descongelar el %1$s de la aplicación?</string>
+<string name="frozen_app_title">Aplicaciones congeladas</string>
+<string name="normal_app_title">Seleccionar aplicación</string>
+<string name="scaning_text">Buscando…</string>
+<string name="clean_main_item_cache">Elementos de cache</string>
+<string name="clean_main_item_app">Aplicación desinstalado</string>
+<string name="clean_main_item_bigfile">Archivos grandes</string>
+<string name="clean_main_item_photo">"Fotos"</string>
+<string name="clean_main_item_media">Audio y video</string>
+<string name="scan_info_text">Buscando: <xliff:g id="path">%s</xliff:g></string>
+<string name="frequent_apps">aplicaciónes frecuentes</string>
+<string name="not_frequent_apps">Aplicaciones no frecuentes</string>
+<string name="group_title_cache">Caché de la aplicación</string>
+<string name="group_title_data">Datos de la aplicación</string>
+<string name="group_title_new_apk">Archivos nuevos APK</string>
+<string name="group_title_re_apk">Archivos APK redundantes</string>
+<string name="group_title_junk">Archivos basura</string>
+<string name="used_text">"Usada"</string>
+<string name="free_text">"Libre"</string>
+<string name="can_be_cleaned">Se puede limpiar</string>
+<string name="clean_up_ram_size">Limpiar: <xliff:g id="size">%s</xliff:g></string>
+<string name="ram_size">Ram: <xliff:g id="size">%s</xliff:g></string>
+<string name="junk_to_clean">Limpiar</string>
+<string name="all">"Todos"</string>
+<string name="none">"Ninguna"</string>
+<string name="a_month_ago">Hace un mes</string>
+<string name="a_year_ago">Hace un año</string>
+<string name="clean_now">Limpio ahora: <xliff:g id="size">%s</xliff:g></string>
+<string-array name="expand_group_summary">
+<item>La limpieza no afectará el uso normal.</item>
+<item>Los datos de la aplicación pueden perderse después de la limpieza.</item>
+<item>No se puede recuperar una vez limpiado.</item>
+<item>Los archivos APK de las aplicaciones instaladas.</item>
+<item>La limpieza no afectará el uso normal.</item>
+</string-array>
+<string name="install_apk_text">Instalar</string>
+<string name="update_apk_text">"Actualizar"</string>
+<string name="clean_up_storage_size"><xliff:g id="size">%s</xliff:g> liberar</string>
+<string name="clean_confirm">Limpiar</string>
+<string name="cancel">Cancelar</string>
+<string name="delete_waring">Una vez limpiado, los datos seleccionados no se pueden recuperar.</string>
+<string name="group_by_date">Agrupar por fecha</string>
+<string name="similar_photo">Fotos similares</string>
+<string name="no_item">No hay elementos</string>
+<string name="no_activity_found">Ninguna Aplicación encontrada para abrir el articulo.</string>
+<string name="phone_storage_info">Teléfono: <xliff:g id="used">%s</xliff:g>/<xliff:g id="total">%s</xliff:g></string>
+<string name="sd_card_info">Tarjeta SD: <xliff:g id="used">%s</xliff:g>/<xliff:g id="total">%s</xliff:g></string>
+    <string name="secure_not_set">"El bloqueo de la pantalla segura no se a guardado. Vaya a Ajustes -> SEGURIDAD y elija la opcion SEGURIDAD."</string>
+</resources>

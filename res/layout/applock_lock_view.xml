@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.gphonemanager.view.LockView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f7f7f7"
+    >
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <View 
+	        android:id="@+id/title_bar"
+	        android:layout_width="match_parent"
+	        android:layout_height="40dp"
+	        android:background="@color/gray"
+	        />
+        <View 
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:background="@color/gray"
+            />
+    </LinearLayout>
+    
+    <include 
+        android:id="@+id/applock_lock_password_view"
+        layout="@layout/applock_lock_password_view"
+        android:layout_below="@id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    
+    <include 
+        android:id="@+id/applock_lock_pattern_view"
+        layout="@layout/applock_lock_pattern_view"
+        android:layout_below="@id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    
+    <include 
+        android:id="@+id/applock_lock_fp_view"
+        layout="@layout/applock_lock_fp_view"
+        android:layout_below="@id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+</com.android.gphonemanager.view.LockView  >

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="app_name">Telefono tvarkyklė</string>
+<string name="clear_summary">Išvalyti RAM ir ROM</string>
+<string name="clear_key">Išvalyti</string>
+<string name="permission_manager">Leidimas</string>
+<string name="call_back_authentication_error">Klaida:</string>
+<string name="call_back_authentication_failed">Nesėkmingas.</string>
+<string name="call_back_authentication_succeeded">Sėkmingai.</string>
+<string name="call_back_authentication_help">Pagalba:</string>
+<string name="confirm_fingerprint_icon_content_description">"Naudokite kontrolinį kodą, kad galėtumėte tęsti."</string>
+<string name="lockpassword_confirm_your_password_header">"Patvirtinkite slaptažodį"</string>
+<string name="lockpassword_confirm_your_pin_header">"Patvirtinkite savo PIN kodą"</string>
+<string name="lockpassword_confirm_your_password_generic">"Jei norite tęsti, įveskite įrenginio slaptažodį."</string>
+<string name="lockpassword_confirm_your_pin_generic">"Jei norite tęsti, įveskite įrenginio PIN kodą."</string>
+<string name="lockpassword_invalid_pin">Netinkamas PIN kodas</string>
+<string name="lockpassword_invalid_password">"Netinkamas slaptažodis"</string>
+<string name="lockpattern_too_many_failed_confirmation_attempts">"Per daug klaidingų bandymų. Bandykite dar kartą po <xliff:g id="NUMBER">%d</xliff:g> sek."</string>
+<string name="lockpassword_confirm_your_pattern_header">"Patvirtinkite piešinį"</string>
+<string name="lockpassword_confirm_your_pattern_generic">"Jei norite tęsti, naudokite įrenginio piešinį."</string>
+<string name="lockpattern_need_to_unlock_wrong">"Netinkamas atrakinimo piešinys"</string>
+<string name="fingerprint_touch_dialog_title">"Oi, tai ne jutiklis"</string>
+<string name="fingerprint_touch_dialog_message">"Naudokite įrenginio kontrolinio kodo jutiklį."</string>
+<string name="scaning_text">Nuskaitoma...</string>
+<string name="clean_main_item_photo">Nuotraukos</string>
+<string name="clean_main_item_media">Garso ir vaizdo įrašai</string>
+<string name="scan_info_text">Nuskaitoma: <xliff:g id="path">%s</xliff:g></string>
+<string name="group_title_cache">Programos talpyklą</string>
+<string name="group_title_data">Programos duomenis</string>
+<string name="used_text">"Naudojama"</string>
+<string name="free_text">Laisvas</string>
+<string name="ram_size">Ram: <xliff:g id="size">%s</xliff:g></string>
+<string name="all">Visus</string>
+<string name="none">Nieko</string>
+<string name="install_apk_text">Įdiegti</string>
+<string name="update_apk_text">Atnaujinti</string>
+<string name="clean_confirm">Išvalyti</string>
+<string name="cancel">Atšaukti</string>
+<string name="no_item">Nėra elementų</string>
+<string name="phone_storage_info">Telefonas: <xliff:g id="used">%s</xliff:g>/<xliff:g id="total">%s</xliff:g></string>
+<string name="sd_card_info">SD kortelė: <xliff:g id="used">%s</xliff:g>/<xliff:g id="total">%s</xliff:g></string>
+</resources>

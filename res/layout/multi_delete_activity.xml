@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical" >
+	    
+		<FrameLayout 
+		    android:id="@+id/fragment_content"
+		    android:layout_width="match_parent"
+	        android:layout_height="0dp"
+	        android:layout_weight="1">
+		    
+		</FrameLayout>
+		
+	    
+		<RelativeLayout 
+		    android:id="@+id/bottom_bar"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingTop="@dimen/padding_space"
+	        android:paddingBottom="@dimen/padding_space"
+	        android:layout_weight="0">
+		    <TextView	    
+		        android:id="@+id/delete_button"
+	            android:layout_width="240dp"
+	            android:layout_height="wrap_content"
+	            android:layout_centerInParent="true"
+	            android:paddingTop="@dimen/padding_space"
+	            android:paddingBottom="@dimen/padding_space"
+	            android:gravity="center"
+	            android:textSize="16sp"
+	            android:background="@drawable/clear_key_bg_big"
+	            android:textColor="@drawable/text_color_selector"
+	            android:text="@string/clear_key">
+		        
+		    </TextView>
+		</RelativeLayout>
+	
+	</LinearLayout>
+	
+    <LinearLayout
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+        <!-- android:background="?android:attr/windowBackground" -->
+
+        <fr.castorflex.android.circularprogressbar.CircularProgressBar
+            android:id="@+id/progressBar2"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:indeterminate="true"
+            app:cpb_colors="@array/gplus_colors"/>
+
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Phone manager</string>
+    <string name="app_lock_summary">Need secure authentication when you enter the application</string>
+    <string name="freeze_app_summary">Disable the application and release resources</string>
+    <string name="clear_summary">Clean RAM and ROM</string>
+    <string name="net_manager_summary">Manage application network connections</string>
+    <string name="clear_key">Clean</string>
+    <string name="app_lock">APP lock</string>
+    <string name="freeze_app">Freeze APP</string>
+    <string name="clear">Cleaner</string>
+    <string name="net_manager">Net manager</string>
+    <string name="app_manager">Auto start</string>
+    <string name="permission_manager">Permission</string>
+    <!-- APP LOCK -->
+    <string name="secure_not_set">"Secure lock screen hasn\'t set up.\nGo to \'Settings ->  SECURITY\' to set up a SECURITY"</string>
+    <string name="title_unlock_app">%1s unlock apps</string>
+    <string name="title_lock_app">%1s lock apps</string>
+    <string name="lockpassword_confirm_your_fp_header">Confirm your fingerprint</string>
+    <string name="lockpassword_confirm_your_fp_generic">Touch the fingerprint sensor to continue.</string>
+    <string name="lockpassword_switch">Switch to security lock</string>
+    <string name="call_back_authentication_error">Error: </string>
+    <string name="call_back_authentication_failed">Failed.</string>
+    <string name="call_back_authentication_succeeded">Succeeded.</string>
+    <string name="call_back_authentication_help">Help: </string>
+    <string name="confirm_fingerprint_icon_content_description">Use your fingerprint to continue.</string>
+    <string name="lockpassword_confirm_your_password_header">Confirm your password</string>
+    <string name="lockpassword_confirm_your_pin_header">Confirm your PIN</string>
+    <string name="lockpassword_confirm_your_password_generic">Enter your device password to continue.</string>
+    <string name="lockpassword_confirm_your_pin_generic">Enter your device PIN to continue.</string>
+    <string name="lockpassword_invalid_pin">Wrong PIN</string>
+    <string name="lockpassword_invalid_password">Wrong password</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts">Too many incorrect attempts. Try again in <xliff:g id="number">%d</xliff:g> seconds.</string>
+    <string name="lockpassword_confirm_your_pattern_header">Confirm your pattern</string>
+    <string name="lockpassword_confirm_your_pattern_generic">Use your device pattern to continue.</string>
+    <string name="lockpattern_need_to_unlock_wrong">Wrong pattern</string>
+    <string name="fingerprint_touch_dialog_title">Whoops, that\u2019s not the sensor</string>
+    <string name="fingerprint_touch_dialog_message">Use the fingerprint sensor on your device.</string>
+    <!-- FREEZE APPS -->
+    <string name="toast_app_freeze_success">%1$s is freezed successful</string>
+    <string name="toast_app_unfreeze_success">%1$s is unfreezed successful</string>
+    <string name="app_freeze_dialog_message">Are you sure freeze the %1$s app?</string>
+    <string name="app_unfreeze_dialog_message">Are you sure unfreeze the %1$s app?</string>
+    <string name="frozen_app_title">Frozen apps</string>
+    <string name="normal_app_title">Pick app</string>
+    <!-- clear -->
+    <string name="hello_world">Hello world!</string>
+    <string name="video">video</string>
+    <string name="picture">picture</string>
+    <string name="music">music</string>
+    <string name="file">file</string>
+    <string name="compressed">compressed</string>
+    <string name="other">other</string>
+    <string name="size">size:</string>
+    <string name="Route">Route:</string>
+    <string name="clear_bigfile">Large file management</string>
+    <string name="sure_delect"> Are you sure you want to delete the selected files? </string>
+    <string name="delect"> delect </string>
+    <string name="push_refresh">The drop-down can be refreshed</string>
+    <string name="lasttime_updata">Last updated</string>
+    <string name="recent_updata">Recently updated</string>
+    <string name="refresh_ing">Refresh. . .</string>
+    <string name="more_get">Release to get more</string>
+    <string name="uninstall_loading">Loading...</string>
+    <string name="s_all">ALL</string>
+    <string name="s_cul">Compressed</string>
+    <string name="s_video">Video</string>
+    <string name="s_music">Music</string>
+    <string name="choose_all">All selected</string>
+    <string name="s_doc">Doc</string>
+    <string name="s_other">other</string>
+    <string name="bigfile">Large files</string>
+    <string name="test_text">189.8 M</string>
+    <string name="scaning_text">Scaning...</string>
+    <string name="clean_main_item_cache">Junk and caches</string>
+    <string name="clean_main_item_app">App uninstallation</string>
+    <string name="clean_main_item_bigfile">Big files</string>
+    <string name="clean_main_item_photo">Photos</string>
+    <string name="clean_main_item_media">Audio and video</string>
+    <string name="scan_info_text">Scaning: <xliff:g id="path">%s</xliff:g></string>
+    <string name="frequent_apps">frequent apps</string>
+    <string name="not_frequent_apps">Not frequent apps</string>
+    <string name="group_title_cache">App cache</string>
+    <string name="group_title_data">App data</string>
+    <string name="group_title_new_apk">New APK files</string>
+    <string name="group_title_re_apk">Redundant APK files</string>
+    <string name="group_title_junk">Junk files</string>
+    <string name="used_text">Used</string>
+    <string name="free_text">Free</string>
+    <string name="can_be_cleaned">Can be cleaned</string>
+    <string name="clean_up_ram_size">Clean up: <xliff:g id="size">%s</xliff:g></string>
+    <string name="ram_size">Ram: <xliff:g id="size">%s</xliff:g></string>
+    <string name="junk_to_clean">To Clean</string>
+    <string name="all">All</string>
+    <string name="none">None</string>
+    <string name="a_month_ago">A month ago</string>
+    <string name="a_year_ago">A year ago</string>
+    <string name="clean_now">Clean Now: <xliff:g id="size">%s</xliff:g></string>
+    <string-array name="expand_group_summary">
+        <item>Cleanup will not affect normal use.</item>
+        <item>App data may be lost after cleanup.</item>
+        <item>Can`t be recovered once cleaned up.</item>
+        <item>APK files of installed apps.</item>
+        <item>Cleanup will not affect normal use.</item>
+    </string-array>
+    <string name="install_apk_text">Install</string>
+    <string name="update_apk_text">Update</string>
+    <string name="clean_up_storage_size"><xliff:g id="size">%s</xliff:g> freed up</string>
+    <string name="clean_confirm">Clean</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete_waring">Once cleaned, the selected data can`t be recovered.</string>
+    <string name="group_by_date">Group by date</string>
+    <string name="similar_photo">Similar Photos</string>
+    <string name="no_item">No item</string>
+    <string name="no_activity_found">No Application found to open the item.</string>
+    <string name="phone_storage_info">Phone: <xliff:g id="used">%s</xliff:g>/<xliff:g id="total">%s</xliff:g></string>
+    <string name="sd_card_info">SD Card: <xliff:g id="used">%s</xliff:g>/<xliff:g id="total">%s</xliff:g></string>
+    <!-- net manager -->
+    <string name="mobile_tab_label">Mobile</string>
+    <string name="wifi_tab_label">WLAN</string>
+    <string name="background_tab_label">Background</string>
+    <string name="set_net_able_success">Success</string>
+    <string name="set_net_able_failed">Failed</string>
+    <string name="application_list">Application List</string>
+    
+    <string-array name="net_control_spinner_list">
+        <item>Network permission</item>
+        <item>Background data</item>
+    </string-array>
+</resources>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Zarządzanie telefon</string>
+
+<string name="app_lock_summary">Przed wejściem do aplikacji wymagane jest bezpieczne uwierzytelnianie</string>
+<string name="freeze_app_summary">Wyłącz aplikację i zwolnij zasoby</string>
+<string name="clear_summary">Wyczyść RAM i ROM</string>
+<string name="net_manager_summary">Zarządzaj połączeniami sieciowymi aplikacji</string>
+<string name="clear_key">Wyczyść</string>
+<string name="app_lock">Blokada aplikacji</string>
+<string name="freeze_app">Wstrzymaj aplikację</string>
+<string name="clear">Czyszczenie</string>
+<string name="net_manager">Menedżer sieci</string>
+<string name="app_manager">Auto-start</string>
+<string name="permission_manager">Uprawnienie</string>
+<string name="title_unlock_app">%1s odblokowanych aplikacji</string>
+<string name="title_lock_app">%1s zablokowanych aplikacji</string>
+<string name="lockpassword_confirm_your_fp_header">Potwierdź swój odcisk palca</string>
+<string name="lockpassword_confirm_your_fp_generic">Dotknij czytnika odcisku palca, aby kontynuować.</string>
+<string name="lockpassword_switch">Przełącz blokadę bezpieczeństwa</string>
+<string name="call_back_authentication_error">Błąd:</string>
+<string name="call_back_authentication_failed">Niepowodzenie.</string>
+<string name="call_back_authentication_succeeded">Pomyślnie.</string>
+<string name="call_back_authentication_help">Pomoc:</string>
+<string name="confirm_fingerprint_icon_content_description">Użyj odcisku palca, aby kontynuować</string>
+<string name="lockpassword_confirm_your_password_header">Potwierdź hasło</string>
+<string name="lockpassword_confirm_your_pin_header">Potwierdź kod PIN</string>
+<string name="lockpassword_confirm_your_password_generic">Wprowadź hasło urządzenia, aby kontynuować</string>
+<string name="lockpassword_confirm_your_pin_generic">Wprowadź kod PIN urządzenia, aby kontynuować.</string>
+<string name="lockpassword_invalid_pin">Nieprawidłowy PIN</string>
+<string name="lockpassword_invalid_password">Złe hasło</string>
+<string name="lockpattern_too_many_failed_confirmation_attempts">"Zbyt wiele nieudanych prób. Spróbuj ponownie za <xliff:g id="NUMBER">%d</xliff:g> s."</string>
+<string name="lockpassword_confirm_your_pattern_header">Potwierdź swój wzór</string>
+<string name="lockpassword_confirm_your_pattern_generic">Użyj wzoru urządzenia, aby kontynuować</string>
+<string name="lockpattern_need_to_unlock_wrong">Nieprawidłowy wzór</string>
+<string name="fingerprint_touch_dialog_title">Ups, to nie jest czujnik</string>
+<string name="fingerprint_touch_dialog_message">Użyj czujnika odcisku palca na Twoim urządzeniu</string>
+<string name="toast_app_freeze_success">%1$s zostało pomyślnie wstrzymanych</string>
+<string name="toast_app_unfreeze_success">%1$s nie zostało pomyślnie wstrzymanych</string>
+<string name="app_freeze_dialog_message">Czy na pewno chcesz wstrzymać %1$s aplikację?</string>
+<string name="app_unfreeze_dialog_message">Czy na pewno chcesz wznowić %1$s aplikację?</string>
+<string name="frozen_app_title">Wstrzymane aplikacje</string>
+<string name="normal_app_title">Wybierz aplikację</string>
+<string name="scaning_text">Skanowanie…</string>
+<string name="clean_main_item_cache">Śmieci i pamięć podręczna</string>
+<string name="clean_main_item_app">Dezinstalacja aplikacji</string>
+<string name="clean_main_item_bigfile">Duże pliki</string>
+<string name="clean_main_item_photo">Album</string>
+<string name="clean_main_item_media">Dźwięk i wideo</string>
+<string name="scan_info_text">Skanowanie: <xliff:g id="path">%s</xliff:g></string>
+<string name="frequent_apps">częste aplikacje</string>
+<string name="not_frequent_apps">Nieczęste aplikacje</string>
+<string name="group_title_cache">Pamięć podręczna aplikacji</string>
+<string name="group_title_data">Dane aplikacji</string>
+<string name="group_title_new_apk">Nowe pliki APK</string>
+<string name="group_title_re_apk">Zbędne pliki APK</string>
+<string name="group_title_junk">Pliki śmieci</string>
+<string name="used_text">Używane</string>
+<string name="free_text">Wolne</string>
+<string name="can_be_cleaned">Można wyczyścić</string>
+<string name="clean_up_ram_size">Wyczyść: <xliff:g id="size">%s</xliff:g></string>
+<string name="ram_size">Ram: <xliff:g id="size">%s</xliff:g></string>
+<string name="junk_to_clean">Do czyszczenia</string>
+<string name="all">Wszystko</string>
+<string name="none">Brak</string>
+<string name="a_month_ago">Miesiąc temu</string>
+<string name="a_year_ago">Rok temu</string>
+<string name="clean_now">Wyczyść teraz:  <xliff:g id="size">%s</xliff:g></string>
+<string-array name="expand_group_summary">
+<item>Czyszczenie nie wpłynie na normalne użytkowanie.</item>
+<item>Dane aplikacji mogą zostać utracone po czyszczeniu.</item>
+<item>Nie można odzyskać po wyczyszczeniu.</item>
+<item>Pliki APK zainstalowanych aplikacji</item>
+<item>Czyszczenie nie wpłynie na normalne użytkowanie.</item>
+</string-array>
+<string name="install_apk_text">Instaluj</string>
+<string name="update_apk_text">Aktualizuj</string>
+<string name="clean_up_storage_size">Zwolniono <xliff:g id="size">%s</xliff:g></string>
+<string name="clean_confirm">Wyczyść</string>
+<string name="cancel">Anuluj</string>
+<string name="delete_waring">Po wyczyszczeniu nie będzie można odzyskać zaznaczonych danych</string>
+<string name="group_by_date">Grupuj wg daty</string>
+<string name="similar_photo">Podobne zdjęcia</string>
+<string name="no_item">Brak elementów</string>
+<string name="no_activity_found">Nie znaleziono aplikacji mogącej otworzyć ten element</string>
+<string name="phone_storage_info">Telefon: <xliff:g id="used">%s</xliff:g>/<xliff:g id="total">%s</xliff:g></string>
+<string name="sd_card_info">Karta SD: <xliff:g id="used">%s</xliff:g>/<xliff:g id="total">%s</xliff:g></string>
+    <string name="secure_not_set">"Nie ustawiono blokady ekranu. Idź do "Ustawienia -> ZABEZPIECZENIA", aby ustawić ZABEZPIECZENIA."</string>
+</resources>

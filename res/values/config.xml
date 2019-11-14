@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <bool name="isTest">false</bool>
+    <bool name="show_app_lock_login_anim">true</bool>
+    <bool name="lock_again_only_after_screenoff">true</bool>
+    <bool name="lock_again_only_after_reboot">true</bool>
+</resources>

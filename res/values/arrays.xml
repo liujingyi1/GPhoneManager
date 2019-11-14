@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="actions_images" translatable="false">  
+        <item>@drawable/main_icon_freeze</item>  
+        <item>@drawable/main_ic_lock</item>  
+        <item>@drawable/main_ic_clear</item>  
+         
+        <item>@drawable/main_ic_net_man</item>  
+        <item>@drawable/main_ic_app_man</item>  
+    </string-array>  
+    <!-- <item>@drawable/main_ic_permission_man</item>  -->
+    
+    
+     <string-array name="actions_titles" translatable="false">  
+        <item>@string/freeze_app</item>  
+        <item>@string/app_lock</item>  
+        <item>@string/clear</item>  
+        
+        <item>@string/net_manager</item>  
+        <item>@string/app_manager</item>  
+    </string-array>  
+    
+     <!-- <item>@string/permission_manager</item>   -->
+    
+     
+    <string-array name="clean_images" translatable="false">  
+        <item>@drawable/clean_cache_icon</item>  
+        <item>@drawable/clean_app_icon</item>  
+        <item>@drawable/clean_bigfile_icon</item>  
+        <item>@drawable/clean_picture_icon</item>  
+        <item>@drawable/clean_video_icon</item> 
+    </string-array>  
+    
+    
+     <string-array name="clean_titles" translatable="false">  
+        <item>@string/clean_main_item_cache</item>  
+        <item>@string/clean_main_item_app</item>  
+        <item>@string/clean_main_item_bigfile</item>  
+        <item>@string/clean_main_item_photo</item>  
+        <item>@string/clean_main_item_media</item> 
+    </string-array> 
+    
+    <integer-array name="gplus_colors" translatable="false">
+        <item>@color/gplus_color_1</item>
+        <item>@color/gplus_color_2</item>
+        <item>@color/gplus_color_3</item>
+        <item>@color/gplus_color_4</item>
+    </integer-array>
+    
+</resources>

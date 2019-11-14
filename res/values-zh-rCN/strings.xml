@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">手机管家</string>
+    <string name="app_lock_summary">需要安全认证才能进入这个应用</string>
+    <string name="freeze_app_summary">禁用这个应用并释放资源</string>
+    <string name="clear_summary">Clean RAM and ROM</string>
+    <string name="net_manager_summary">管理网络连接</string>
+    <string name="clear_key">清理</string>
+    <string name="app_lock">应用锁</string>
+    <string name="freeze_app">应用冻结</string>
+    <string name="clear">手机清理</string>
+    <string name="net_manager">网络管理</string>
+    <string name="app_manager">自启动管理</string>
+    <string name="permission_manager">权限管理</string>
+    <!-- APP LOCK -->
+    <string name="secure_not_set">"Secure lock screen hasn\'t set up.\nGo to \'Settings ->  SECURITY\' to set up a SECURITY"</string>
+    <string name="title_unlock_app">%1s unlock apps</string>
+    <string name="title_lock_app">%1s lock apps</string>
+    <string name="lockpassword_confirm_your_fp_header">Confirm your fingerprint</string>
+    <string name="lockpassword_confirm_your_fp_generic">Touch the fingerprint sensor to continue.</string>
+    <string name="lockpassword_switch">Switch to security lock</string>
+    <string name="call_back_authentication_error">Error: </string>
+    <string name="call_back_authentication_failed">Failed.</string>
+    <string name="call_back_authentication_succeeded">Succeeded.</string>
+    <string name="call_back_authentication_help">Help: </string>
+    <string name="confirm_fingerprint_icon_content_description">Use your fingerprint to continue.</string>
+    <string name="lockpassword_confirm_your_password_header">Confirm your password</string>
+    <string name="lockpassword_confirm_your_pin_header">Confirm your PIN</string>
+    <string name="lockpassword_confirm_your_password_generic">Enter your device password to continue.</string>
+    <string name="lockpassword_confirm_your_pin_generic">Enter your device PIN to continue.</string>
+    <string name="lockpassword_invalid_pin">Wrong PIN</string>
+    <string name="lockpassword_invalid_password">Wrong password</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts">Too many incorrect attempts. Try again in <xliff:g id="number">%d</xliff:g> seconds.</string>
+    <string name="lockpassword_confirm_your_pattern_header">Confirm your pattern</string>
+    <string name="lockpassword_confirm_your_pattern_generic">Use your device pattern to continue.</string>
+    <string name="lockpattern_need_to_unlock_wrong">Wrong pattern</string>
+    <string name="fingerprint_touch_dialog_title">Whoops, that\u2019s not the sensor</string>
+    <string name="fingerprint_touch_dialog_message">Use the fingerprint sensor on your device.</string>
+    <!-- FREEZE APPS -->
+    <string name="toast_app_freeze_success">%1$s 冻结成功</string>
+    <string name="toast_app_unfreeze_success">%1$s 解冻成功</string>
+    <string name="app_freeze_dialog_message">确认冻结 %1$s 吗?</string>
+    <string name="app_unfreeze_dialog_message">确认解冻 %1$s 吗?</string>
+    <string name="frozen_app_title">已冻结应用</string>
+    <string name="normal_app_title">未冻结应用</string>
+    <!-- clear -->
+
+    <string name="scaning_text">正在扫描...</string>
+    <string name="clean_main_item_cache">垃圾与缓存</string>
+    <string name="clean_main_item_app">应用卸载</string>
+    <string name="clean_main_item_bigfile">大文件</string>
+    <string name="clean_main_item_photo">图片</string>
+    <string name="clean_main_item_media">音频和视频</string>
+    <string name="scan_info_text">正在扫描: <xliff:g id="path">%s</xliff:g></string>
+    <string name="frequent_apps">常用应用</string>
+    <string name="not_frequent_apps">不常用应用</string>
+    <string name="group_title_cache">缓存</string>
+    <string name="group_title_data">应用数据</string>
+    <string name="group_title_new_apk">未安装安装包</string>
+    <string name="group_title_re_apk">已安装安装包</string>
+    <string name="group_title_junk">垃圾文件</string>
+    <string name="used_text">已用</string>
+	<string name="free_text">可用</string>
+    <string name="can_be_cleaned">可清理</string>
+    <string name="clean_up_ram_size">已清理: <xliff:g id="size">%s</xliff:g></string>
+    <string name="ram_size">内存: <xliff:g id="size">%s</xliff:g></string>
+    <string name="junk_to_clean">可清理</string>
+    <string name="all">全选</string>
+    <string name="none">全不选</string>
+    <string name="a_month_ago">一个月前</string>
+    <string name="a_year_ago">一年前</string>
+    <string name="clean_now">立即清理: <xliff:g id="size">%s</xliff:g></string>
+    <string-array name="expand_group_summary">
+        <item>清理后不会影响使用.</item>
+        <item>清理后会丢失应用数据.</item>
+        <item>清理后无法恢复.</item>
+        <item>无用安装包.</item>
+        <item>清理后不会影响使用.</item>
+    </string-array>
+    <string name="install_apk_text">安装</string>
+    <string name="update_apk_text">更新</string>
+    <string name="clean_up_storage_size"><xliff:g id="size">%s</xliff:g> 已清理</string>
+    <string name="clean_confirm">清理</string>
+    <string name="cancel">取消</string>
+    <string name="delete_waring">清理后，所选数据将无法恢复.</string>
+    <string name="group_by_date">按照日期分组</string>
+    <string name="similar_photo">相似照片</string>
+    <string name="no_item">没有数据</string>
+    <string name="no_activity_found">没有可以打开这项的应用.</string>
+    <string name="phone_storage_info">手机: <xliff:g id="used">%s</xliff:g>/<xliff:g id="total">%s</xliff:g></string>
+    <string name="sd_card_info">SD卡: <xliff:g id="used">%s</xliff:g>/<xliff:g id="total">%s</xliff:g></string>
+	
+    <!-- net manager -->
+    <string name="mobile_tab_label">移动</string>
+    <string name="wifi_tab_label">无线</string>
+    <string name="set_net_able_success">设置成功</string>
+    <string name="set_net_able_failed">设置失败</string>
+    <string name="application_list">应用列表</string>
+    
+    <string-array name="net_control_spinner_list">
+        <item>网络权限</item>
+        <item>后台数据</item>
+    </string-array>
+
+</resources>

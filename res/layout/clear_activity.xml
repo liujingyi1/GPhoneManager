@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+    <RelativeLayout 
+        android:id="@+id/main_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/clear_main_height"
+        android:background="@color/color_primary">
+        
+        <TextView 
+            android:id="@+id/count_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/clear_main_text_margin"
+            android:textColor="@color/white"
+            android:textSize="@dimen/clear_main_text_size"/>
+        
+        <TextView 
+            android:id="@+id/scan_info_text"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/count_text"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="@dimen/scaninfo_text_size"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="6dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            >
+	       <TextView 
+	            android:id="@+id/info_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textColor="@color/white"
+	            android:textSize="12sp"/>
+	        
+	        <TextView 
+	            android:id="@+id/sdcard_info_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="20dp"
+	            android:textColor="@color/white"
+	            android:textSize="12sp"/>
+        </LinearLayout>
+
+        
+        
+    </RelativeLayout>
+    
+    <com.android.gphonemanager.view.SmoothProgressView
+        android:id="@+id/progress_view"
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+		android:background="@color/white">
+        
+    </com.android.gphonemanager.view.SmoothProgressView>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical" >
+        
+        <View
+             android:layout_width="@dimen/block_square_size"
+             android:layout_height="@dimen/block_square_size"
+             android:layout_marginLeft="20dp"
+             android:background="@color/percent_color_one">
+        </View>
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_space"
+            android:textSize="12sp"
+            android:text="@string/used_text"/>
+        
+        <View
+             android:layout_width="@dimen/block_square_size"
+             android:layout_height="@dimen/block_square_size"
+             android:layout_marginLeft="20dp"
+             android:background="@color/percent_color_two">
+        </View>
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_space"
+            android:textSize="12sp"
+            android:text="@string/can_be_cleaned"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="8dp"
+        android:orientation="vertical">
+
+    <!-- 
+	    <android.support.v7.widget.RecyclerView
+	        android:id="@+id/main_list"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"/>-->
+	    
+	    <ListView 
+	        android:id="@+id/main_list"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:fastScrollEnabled="true"
+	        android:scrollbars="none"
+	        android:focusable="true"
+	        android:clipToPadding="false"
+	        android:divider="@null"
+	        android:fadingEdge="none"
+	        android:fitsSystemWindows="true"
+	        android:scrollbarStyle="outsideOverlay"
+	        android:paddingLeft="12dp" 
+	        android:paddingRight="12dp" 
+        />
+	    <!--  android:dividerHeight="1dp" -->
+    </LinearLayout>
+    
+     
+
+</LinearLayout>

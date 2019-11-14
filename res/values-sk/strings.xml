@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="permission_manager">Oprávnění</string>
+<string name="call_back_authentication_error">Chyba:</string>
+<string name="call_back_authentication_failed">Selhalo.</string>
+<string name="call_back_authentication_succeeded">Byla úspěšná.</string>
+<string name="call_back_authentication_help">Nápověda:</string>
+<string name="confirm_fingerprint_icon_content_description">"Pokračujte přiložením prstu."</string>
+<string name="lockpassword_confirm_your_password_header">"Potvrďte heslo"</string>
+<string name="lockpassword_confirm_your_pin_header">"Potvrďte kód PIN"</string>
+<string name="lockpassword_confirm_your_password_generic">"Chcete-li pokračovat, zadejte heslo zařízení."</string>
+<string name="lockpassword_confirm_your_pin_generic">"Chcete-li pokračovat, zadejte PIN zařízení."</string>
+<string name="lockpassword_invalid_pin">Chybný PIN</string>
+<string name="lockpassword_invalid_password">Nesprávne heslo!</string>
+<string name="lockpattern_too_many_failed_confirmation_attempts">"Příliš mnoho neplatných pokusů. Zkuste to znovu za <xliff:g id="NUMBER">%d</xliff:g> s."</string>
+<string name="lockpassword_confirm_your_pattern_header">"Potvrďte své gesto"</string>
+<string name="lockpassword_confirm_your_pattern_generic">"Chcete-li pokračovat, zadejte gesto zařízení."</string>
+<string name="lockpattern_need_to_unlock_wrong">"Nesprávné gesto"</string>
+<string name="fingerprint_touch_dialog_title">"Jejda, to není senzor."</string>
+<string name="fingerprint_touch_dialog_message">"Použijte senzor otisků prstů na zařízení."</string>
+<string name="scaning_text">Vyhledávání…</string>
+<string name="clean_main_item_photo">Fotografie</string>
+<string name="clean_main_item_media">Zvuk a video</string>
+<string name="scan_info_text">Vyhledávání: <xliff:g id="path">%s</xliff:g></string>
+<string name="frequent_apps">Časté aplikace</string>
+<string name="group_title_cache">Mezipaměť aplikací</string>
+<string name="group_title_data">Data aplikací</string>
+<string name="used_text">"Využito"</string>
+<string name="free_text">Voľné</string>
+<string name="ram_size">Ram: <xliff:g id="size">%s</xliff:g></string>
+<string name="all">Všetko</string>
+<string name="none">Žiadny</string>
+<string name="a_month_ago">Pred 1 mesiacom</string>
+<string name="a_year_ago">Pred 1 rokmi</string>
+<string name="install_apk_text">Inštalovať</string>
+<string name="update_apk_text">Aktualizovať</string>
+<string name="cancel">"Zrušit"</string>
+<string name="phone_storage_info">Telefon: <xliff:g id="used">%s</xliff:g>/<xliff:g id="total">%s</xliff:g></string>
+<string name="sd_card_info">Karta SD: <xliff:g id="used">%s</xliff:g>/<xliff:g id="total">%s</xliff:g></string>
+</resources>

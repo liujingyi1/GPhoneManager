@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="main_color">#009587</color>
+    <color name="text_color_dark">#6c6c6c</color>
+    <color name="text_color">#767676</color>
+    <color name="actionbar_bg">#fafafa</color>
+    <color name="actionbar_text_color">@color/text_color_dark</color>
+    <color name="line">#6c6c6c</color>
+    <color name="line_half_translate">#886c6c6c</color>
+    <color name="bg_dark">#aa121212</color>
+    <color name="bg_dark1">#aaF4F4F4</color>
+    <color name="warning">#ff5621</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#333333</color>
+    <color name="red">#E10000</color>
+    <color name="gold">#FFD700</color>
+    <color name="lightgoldenrodyellow">#FAFAD2</color>
+    <color name="darkgoldenrod">#B8860B</color>
+    <color name="snow">#FFFAFA</color>
+    <color name="lock_pattern_view_regular_color">#ff37474f</color>
+    <color name="lock_pattern_view_regular_color_dark">#ffffff</color>
+    <color name="lock_pattern_view_error_color">@color/warning</color>
+    <color name="back_file">#4788b0</color>
+    <color name="back_clear">#74b2d7</color>
+    
+    
+    <color name="status_bar_color">#267191</color>
+    <color name="color_primary_dark">#41BDF1</color>
+    <color name="color_primary">#41BDF1</color>
+    <color name="text_color_primary">#43486f</color>
+    <color name="dark_text_color_primary">#5543486f</color>
+    <color name="half_dark_text_color_primary">#3343486f</color>
+    <color name="color_accent">#43486f</color>
+    
+    <color name="navigationbar_color">#E7E7E7</color>
+    <color name="window_background_color">#FAFAFA</color>
+    <color name="navigationbar_button_color">#919191</color>
+    
+    <color name="main_percent_color">#ffffff</color>
+    <color name="main_gridview_text_color">#43486f</color>
+    <color name="main_gridview_bg_color">#fbfbfb</color>
+    <color name="main_line_color">#eeeeee</color>
+    
+    <color name="gplus_color_1">#3e802f</color>
+    <color name="gplus_color_2">#f4b400</color>
+    <color name="gplus_color_3">#427fed</color>
+    <color name="gplus_color_4">#b23424</color>
+    
+    <color name="percent_color_one">#FF7300</color>
+    <color name="percent_color_two">#59F5BE</color>
+    
+    <color name="tab_selected_underline_color">#ffffff</color>
+    <color name="actionbar_background_color">#41BDF1</color>
+
+</resources>

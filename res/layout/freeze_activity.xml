@@ -1,0 +1,42 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fp="http://schemas.android.com/apk/res/com.android.gphonemanager"
+    android:id="@+id/root_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </FrameLayout>
+
+    <com.android.gphonemanager.view.IceAnimationLayout
+        android:id="@+id/anim_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        fp:space="5dp"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/static_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="center"/>
+
+        <TextView
+            android:id="@+id/label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="@color/text_color"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/anim_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="center"/>
+    </com.android.gphonemanager.view.IceAnimationLayout>
+
+</FrameLayout>

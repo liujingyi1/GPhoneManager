@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="clear_key">Tīrs</string>
+<string name="permission_manager">Atļauja</string>
+<string name="title_lock_app">%1s bloķēt lietotnes</string>
+<string name="call_back_authentication_error">Kļūda:</string>
+<string name="call_back_authentication_failed">Neizdevās.</string>
+<string name="call_back_authentication_succeeded">Veiksmīgi.</string>
+<string name="call_back_authentication_help">Palīdzība:</string>
+<string name="confirm_fingerprint_icon_content_description">"Lai turpinātu, izmantojiet pirksta nospiedumu."</string>
+<string name="lockpassword_confirm_your_password_header">"Apstipriniet paroli"</string>
+<string name="lockpassword_confirm_your_pin_header">"Apstipriniet savu PIN kodu"</string>
+<string name="lockpassword_confirm_your_password_generic">"Lai turpinātu, ievadiet ierīces paroli."</string>
+<string name="lockpassword_confirm_your_pin_generic">"Lai turpinātu, ievadiet ierīces PIN kodu."</string>
+<string name="lockpassword_invalid_pin">Nepareizs PIN kods</string>
+<string name="lockpassword_invalid_password">"Nepareiza parole"</string>
+<string name="lockpattern_too_many_failed_confirmation_attempts">"Pārāk daudz neveiksmīgu mēģinājumu. Mēģiniet vēlreiz pēc <xliff:g id="NUMBER">%d</xliff:g> sekundēm."</string>
+<string name="lockpassword_confirm_your_pattern_header">"Apstipriniet kombināciju"</string>
+<string name="lockpassword_confirm_your_pattern_generic">"Lai turpinātu, ievadiet ierīces kombināciju."</string>
+<string name="lockpattern_need_to_unlock_wrong">"Nepareiza kombinācija"</string>
+<string name="fingerprint_touch_dialog_title">"Tas nav sensors!"</string>
+<string name="fingerprint_touch_dialog_message">"Izmantojiet nospieduma sensoru uz ierīces."</string>
+<string name="scaning_text">Skenē....</string>
+<string name="clean_main_item_photo">Fotoattēli</string>
+<string name="clean_main_item_media">Audio un videoklips</string>
+<string name="scan_info_text">Skenē: <xliff:g id="path">%s</xliff:g></string>
+<string name="group_title_cache">Lietotņu kešatmiņa</string>
+<string name="group_title_data">Lietotņu dati</string>
+<string name="used_text">"Izmantota"</string>
+<string name="free_text">BEZMAKSAS</string>
+<string name="ram_size">Ram: <xliff:g id="size">%s</xliff:g></string>
+<string name="all">"Visi"</string>
+<string name="none">Nav (neviens)</string>
+<string name="install_apk_text">Instalēt</string>
+<string name="update_apk_text">Aktualizēt</string>
+<string name="clean_confirm">Tīrs</string>
+<string name="cancel">"Atcelt"</string>
+<string name="group_by_date">Grupēt pēc  datums</string>
+<string name="phone_storage_info">Tālrunis: <xliff:g id="used">%s</xliff:g>/<xliff:g id="total">%s</xliff:g></string>
+<string name="sd_card_info">SD karte: <xliff:g id="used">%s</xliff:g>/<xliff:g id="total">%s</xliff:g></string>
+</resources>

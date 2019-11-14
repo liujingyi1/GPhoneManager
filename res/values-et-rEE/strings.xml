@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="clear_key">Puhasta</string>
+<string name="app_manager">Automaatne käivitamine</string>
+<string name="permission_manager">Luba</string>
+<string name="title_unlock_app">%1s avamine rakendused</string>
+<string name="title_lock_app">%1s lukusta rakendused</string>
+<string name="call_back_authentication_error">Viga:</string>
+<string name="call_back_authentication_failed">Ebaõnnestus.</string>
+<string name="call_back_authentication_succeeded">õnnestus.</string>
+<string name="call_back_authentication_help">Abi:</string>
+<string name="confirm_fingerprint_icon_content_description">"Jätkamiseks kasutage sõrmejälge."</string>
+<string name="lockpassword_confirm_your_password_header">"Kinnitage parool"</string>
+<string name="lockpassword_confirm_your_pin_header">"Kinnitage PIN-kood"</string>
+<string name="lockpassword_confirm_your_password_generic">Sisestage jätkamiseks seadme parool.</string>
+<string name="lockpassword_confirm_your_pin_generic">Sisestage jätkamiseks seadme PIN-kood.</string>
+<string name="lockpassword_invalid_pin">"Vale PIN-kood"</string>
+<string name="lockpassword_invalid_password">"Vale parool"</string>
+<string name="lockpattern_too_many_failed_confirmation_attempts">"Liiga palju valesid katseid. Proovige uuesti <xliff:g id="NUMBER">%d</xliff:g> sekundi pärast."</string>
+<string name="lockpassword_confirm_your_pattern_header">"Mustri kinnitamine"</string>
+<string name="lockpassword_confirm_your_pattern_generic">Kasutage jätkamiseks seadme mustrit.</string>
+<string name="lockpattern_need_to_unlock_wrong">"Vale muster"</string>
+<string name="fingerprint_touch_dialog_title">"Vabandust, see pole andur"</string>
+<string name="fingerprint_touch_dialog_message">"Kasutage seadme sõrmejäljeandurit."</string>
+<string name="scaning_text">Skannimine…</string>
+<string name="clean_main_item_photo">"Fotod"</string>
+<string name="clean_main_item_media">Heli ja videod</string>
+<string name="scan_info_text">Skannimine: <xliff:g id="path">%s</xliff:g></string>
+<string name="group_title_cache">Rakenduse vahemälu</string>
+<string name="group_title_data">Rakenduse andmed</string>
+<string name="used_text">"Kasutati"</string>
+<string name="free_text">"Tasuta"</string>
+<string name="clean_up_ram_size">Puhasta: <xliff:g id="size">%s</xliff:g></string>
+<string name="ram_size">Ram: <xliff:g id="size">%s</xliff:g></string>
+<string name="all">Kõik</string>
+<string name="none">Puudub</string>
+<string name="install_apk_text">Installi</string>
+<string name="update_apk_text">Värskenda</string>
+<string name="clean_confirm">Puhasta</string>
+<string name="cancel">"Tühista"</string>
+<string name="no_item">Üksusi ei ole</string>
+<string name="phone_storage_info">Telefon: <xliff:g id="used">%s</xliff:g>/<xliff:g id="total">%s</xliff:g></string>
+<string name="sd_card_info">SD-kaart: <xliff:g id="used">%s</xliff:g>/<xliff:g id="total">%s</xliff:g></string>
+</resources>

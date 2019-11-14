@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    coreApp="true"
+    package="com.android.gphonemanager"
+    android:sharedUserId="android.uid.system"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="23" android:targetSdkVersion="24" />
+<!--     <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS"/> -->
+    <uses-permission android:name="android.permission.STATUS_BAR"/>
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR"/>
+    <uses-permission android:name="android.permission.DELETE_CACHE_FILES" />
+    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.FORCE_STOP_PACKAGES"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    
+    <application
+        android:allowBackup="true"
+        android:persistent="true"
+        android:allowClearUserData="false"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:resizeableActivity="false"
+        android:screenOrientation="portrait" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainAppTheme">
+            
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <service android:name=".GPhoneManagerService" >
+            <intent-filter>
+                <action android:name="com.android.gphonemanager.GPMS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+        <activity
+            android:name=".freezeapp.FreezeActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/freeze_app">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <receiver android:name=".freezeapp.BootCmpleteReceiver" android:directBootAware="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        
+        <activity
+            android:name=".applock.AppLockActivity"
+            android:screenOrientation="portrait"
+            android:noHistory="true"
+            android:label="@string/app_lock" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".applock.FPRecognizeActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/app_lock" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="com.android.gphonemanager.ACTION_APP_LOCK" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".applock.AppLockService" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="com.rgk.fp.APP_LOCK_BOOT_SERVICE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+        <service android:name=".applock.AppLockServiceDaemon"
+            android:process="com.android.gphonemanager.service"
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+        
+        <service android:name=".clear.CleanerService" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="com.android.gphonemanager.clear.CLEAN_AND_EXIT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+        
+        <activity
+            android:name=".clear.ClearActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/clear">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <provider android:name="android.support.v4.content.FileProvider"
+            	  android:authorities="com.android.gphonemanager"
+            	  android:grantUriPermissions="true"
+            	  android:exported="false">
+            	  <meta-data
+            	      android:name="android.support.FILE_PROVIDER_PATHS"
+            	      android:resource="@xml/file_paths"/>
+            
+        </provider>
+        
+        <activity
+            android:name=".clear.MultiDeleteActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/clear">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".netmanager.NetControlerActivity2"
+            android:screenOrientation="portrait"
+            android:label="@string/net_manager">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <receiver android:name=".netmanager.BootAndShutdownReceiver" android:directBootAware="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name=".PhoneManagerProvider"
+            android:authorities="com.gmanager.app"
+            android:exported="false" >
+        </provider>
+        
+        <provider
+            android:name=".PhoneManagerProviderPublic"
+            android:authorities="com.gmanager.app.public"
+            android:exported="true" >
+        </provider>
+
+        <activity
+            android:name=".clear.Scaning"
+            android:label="@string/clear_bigfile"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".clear.MyActivityDialog"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyDialogStyle" />
+    </application>
+
+</manifest>

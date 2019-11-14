@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+
+    
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical" >
+        
+        <LinearLayout
+            android:id="@+id/top"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+            
+	        <View
+	             android:layout_width="5dp"
+	             android:layout_height="20dp"
+	             android:layout_marginLeft="20dp"
+	             android:background="@color/percent_color_two"/>
+	            
+	        <TextView 
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+	            android:layout_marginLeft="@dimen/padding_space"
+	            android:text="@string/application_list"/>
+	        
+	        <LinearLayout
+	           android:id="@+id/all_mobile_container"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:gravity="center_horizontal"
+               android:orientation="vertical">
+	            <CheckBox 
+	                android:id="@+id/select_all_mobile"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"/>
+	            
+	            <TextView 
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:textSize="10sp"
+	                android:layout_marginTop="-3dp"
+	                android:text="@string/mobile_tab_label"/>
+	        </LinearLayout>
+
+            <LinearLayout
+               android:id="@+id/all_wlan_container"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:gravity="center_horizontal"
+               android:layout_marginRight="20dp"
+               android:layout_marginLeft="5dp" >
+               <CheckBox 
+                    android:id="@+id/select_all_wlan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                
+                <TextView 
+                    android:id="@+id/wlan_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10sp"
+                    android:layout_marginTop="-3dp"
+                    android:text="@string/wifi_tab_label"/>
+            </LinearLayout>
+             
+        </LinearLayout>
+	            
+       <View
+           android:id="@+id/divider_line"
+           android:layout_width="match_parent"
+           android:layout_height="@dimen/divider_line_height"
+           android:layout_alignParentBottom="true"
+           android:background="@color/half_dark_text_color_primary"/>
+	            
+	    <ListView
+	        android:id="@+id/listview_app"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+            android:divider="@null"
+            android:scrollbars="none"
+            android:focusable="true"
+            android:paddingLeft="6dp" 
+            android:paddingRight="6dp" />
+	    
+	</LinearLayout>
+	
+	
+    <LinearLayout
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+            <fr.castorflex.android.circularprogressbar.CircularProgressBar
+                android:id="@+id/progressBar2"
+                android:layout_width="50dip"
+                android:layout_height="50dip"
+                android:indeterminate="true"
+                app:cpb_colors="@array/gplus_colors"/>
+
+    </LinearLayout>
+
+</FrameLayout>

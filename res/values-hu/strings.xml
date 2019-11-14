@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Telefon Kezelő</string>
+
+<string name="app_lock_summary">Biztonsági hitelesítés szükséges ha belép az alkalmazásba.</string>
+<string name="freeze_app_summary">Alkalmazás kikapcsolása és források felszabadítása</string>
+<string name="clear_summary">RAM és ROM megtisztítása</string>
+<string name="net_manager_summary">Alkalmazások hálózatkezelése</string>
+<string name="clear_key">Tisztítás</string>
+<string name="app_lock">Alkalmazás zár</string>
+<string name="freeze_app">Alkalmazás leállítás</string>
+<string name="clear">Tisztító</string>
+<string name="net_manager">Hálózat kezelő</string>
+<string name="app_manager">Auto Indítás</string>
+<string name="permission_manager">Engedély</string>
+<string name="title_unlock_app">%1s feloldott alkalmazás</string>
+<string name="title_lock_app">%1s lezárt alkalmazás</string>
+<string name="lockpassword_confirm_your_fp_header">Hagyja jóvá ujjlenyomatát</string>
+<string name="lockpassword_confirm_your_fp_generic">Érintse meg az ujjlenyomat olvasót a folytatáshoz.</string>
+<string name="lockpassword_switch">Váltás Biztonsági zárra</string>
+<string name="call_back_authentication_error">Hiba:</string>
+<string name="call_back_authentication_failed">"Meghiúsult"</string>
+<string name="call_back_authentication_succeeded">Sikeres</string>
+<string name="call_back_authentication_help">Súgó:</string>
+<string name="confirm_fingerprint_icon_content_description">"A folytatáshoz használja ujjlenyomatát."</string>
+<string name="lockpassword_confirm_your_password_header">"Jelszó megerősítése"</string>
+<string name="lockpassword_confirm_your_pin_header">"PIN kód megerősítése"</string>
+<string name="lockpassword_confirm_your_password_generic">"A folytatáshoz adja meg eszköze jelszavát."</string>
+<string name="lockpassword_confirm_your_pin_generic">"A folytatáshoz adja meg eszköze PIN kódját."</string>
+<string name="lockpassword_invalid_pin">"Helytelen PIN kód"</string>
+<string name="lockpassword_invalid_password">"Helytelen jelszó"</string>
+<string name="lockpattern_too_many_failed_confirmation_attempts">"Túl sok helytelen próbálkozás. Próbálja újra <xliff:g id="NUMBER">%d</xliff:g> másodperc múlva."</string>
+<string name="lockpassword_confirm_your_pattern_header">"Erősítse meg a mintát"</string>
+<string name="lockpassword_confirm_your_pattern_generic">"A folytatáshoz használja eszköze mintáját."</string>
+<string name="lockpattern_need_to_unlock_wrong">"Helytelen minta"</string>
+<string name="fingerprint_touch_dialog_title">"Hoppá! Az nem az érzékelő"</string>
+<string name="fingerprint_touch_dialog_message">"Használja az eszköz ujjlenyomat-érzékelőjét."</string>
+<string name="toast_app_freeze_success">%1$s sikeresen leállítva</string>
+<string name="toast_app_unfreeze_success">%1$s sikeresen folytatva</string>
+<string name="app_freeze_dialog_message">Biztos, hogy leállítja a(z) %1$s alkalmazást?</string>
+<string name="app_unfreeze_dialog_message">Biztos, hogy folytatja a(z) %1$s alkalmazást?</string>
+<string name="frozen_app_title">Leállított alkalmazások</string>
+<string name="normal_app_title">Válasszon alkalmazást</string>
+<string name="scaning_text">Beolvasás…</string>
+<string name="clean_main_item_cache">Szemét és cache</string>
+<string name="clean_main_item_app">Alkalmazás eltávolítás</string>
+<string name="clean_main_item_bigfile">Nagy fájlok</string>
+<string name="clean_main_item_photo">"Fotók"</string>
+<string name="clean_main_item_media">Audió és videó</string>
+<string name="scan_info_text">Beolvasás: <xliff:g id="path">%s</xliff:g></string>
+<string name="frequent_apps">gyakori alkalamzások</string>
+<string name="not_frequent_apps">Nem gyakori alkalmazások</string>
+<string name="group_title_cache">Alkalmazás cache</string>
+<string name="group_title_data">Alkalmazás adat</string>
+<string name="group_title_new_apk">Új alkalmazás fájlok</string>
+<string name="group_title_re_apk">Visszamaradt alkalmazás fájlok</string>
+<string name="group_title_junk">Felesleges fájlok</string>
+<string name="used_text">"Használt"</string>
+<string name="free_text">"Szabad"</string>
+<string name="can_be_cleaned">Tisztítható</string>
+<string name="clean_up_ram_size">Tisztítás: <xliff:g id="size">%s</xliff:g></string>
+<string name="ram_size">Ram: <xliff:g id="size">%s</xliff:g></string>
+<string name="junk_to_clean">Tisztítandó</string>
+<string name="all">"Összes"</string>
+<string name="none">"Egyik sem"</string>
+<string name="a_month_ago">Egy hónapja</string>
+<string name="a_year_ago">Egy éve</string>
+<string name="clean_now">Aktuális tisztítás: <xliff:g id="size">%s</xliff:g></string>
+<string-array name="expand_group_summary">
+<item>A tisztítás nem befolyásolja a használatot.</item>
+<item>A tisztítás után az alkalmazás adatai elveszhetnek.</item>
+<item>A tisztítás után nem visszaállítható.</item>
+<item>Telepített alkalmazások APK fájljai.</item>
+<item>A tisztítás nem befolyásolja a használatot.</item>
+</string-array>
+<string name="install_apk_text">"Telepítés"</string>
+<string name="update_apk_text">"Beállítás"</string>
+<string name="clean_up_storage_size"><xliff:g id="size">%s</xliff:g> felszabadítva</string>
+<string name="clean_confirm">Tisztítás</string>
+<string name="cancel">"Mégse"</string>
+<string name="delete_waring">A tisztítás után a kiválasztott adat nem lesz visszaállítható.</string>
+<string name="group_by_date">Csoportosítás dátum alapján</string>
+<string name="similar_photo">Hasonló képek</string>
+<string name="no_item">Nincs elem</string>
+<string name="no_activity_found">Nem található alkalmazás az elem megnyitásához.</string>
+<string name="phone_storage_info">Telefon: <xliff:g id="used">%s</xliff:g>/<xliff:g id="total">%s</xliff:g></string>
+<string name="sd_card_info">SD-kártya: <xliff:g id="used">%s</xliff:g>/<xliff:g id="total">%s</xliff:g></string>
+    <string name="secure_not_set">"A biztonsági képernyőzár nincs beállítva. Menjen a Beállítások -> BIZTONSÁG menübe a zárolás aktiválásához"</string>
+</resources>
